@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "jsx": "react",
+        "baseUrl": ".",
+        "module": "CommonJS",
+        "moduleResolution": "classic",
+        "paths": {
+            "@images/*": ["./src/images/*"],
+            "@utils/*": ["./src/utils/*"]
+        }
+    }
+}
